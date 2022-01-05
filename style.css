@@ -1,0 +1,628 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 20px 75px;
+    font-family: 'Roboto';
+}
+
+
+
+/*------------------------------------------------- HEADER -------------------------------------------------*/
+
+.header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* background-color:aquamarine ; */
+}
+
+    /*------------------------------------------------- LOGO -------------------------------------------------*/
+
+
+.container_logo {
+
+    width: 155px;
+
+    /* background-color: red; */
+}
+
+.logo_img {
+    width: 100%;
+
+}
+
+    /*------------------------------------------------- FIN LOGO -------------------------------------------------*/
+
+
+
+    /*------------------------------------------------- NETWORK -------------------------------------------------*/
+
+.container_network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+
+    /* background-color: gold; */
+}
+
+
+
+.network_icon {
+    width: 30px;
+
+    margin-right: 25px;
+
+    cursor: pointer;
+}
+
+.network_icon:last-child {
+    margin-right: 0;
+}
+    /*------------------------------------------------- FIN NETWORK -------------------------------------------------*/
+
+
+/*------------------------------------------------- FIN HEADER -------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------- SECTION GAME -------------------------------------------------*/
+
+.section_game {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: darkgrey; */
+}
+
+.info_game {
+    font-size: 25px;
+}
+
+
+    /*------------------------------------------------- CONTAINER FORM -------------------------------------------------*/
+
+.container_form {
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+    transition: 0.5s ease;
+
+    /* background-color: orange; */
+}
+
+
+.input_box_txt {
+    width: 60%;
+
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: green; */
+}
+
+.input_txt {
+    padding: 10px 5px;
+
+    width: 60%;
+}
+
+.input {
+    cursor: pointer;
+}
+
+
+.input_box_chk_first {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.link_politique_data_perso {
+    color: #F3BE64;
+}
+
+
+
+
+
+.btn_form_game {
+    margin-top: 65px;
+
+    outline: none;
+    padding: 10px 45px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background-color: #F3BE64;
+
+    cursor: pointer;
+    border: none;
+
+    align-self: center;
+}
+
+.btn_form_game:hover {
+    background-color: #F9D984;
+}
+
+    /*------------------------------------------------- FIN CONTAINER FORM -------------------------------------------------*/
+
+
+
+
+
+    /*------------------------------------------------- CONTAINER GAME -------------------------------------------------*/
+.container_game {
+    width: 75%;
+
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    transition: 0.5s ease;
+    /* background-color: aquamarine; */
+}
+
+
+
+
+.container_game_wheel {
+    width: 60%;
+
+    /* background-color: red; */
+}
+
+.img_wheel {
+    width: 100%;
+}
+
+
+.container_game_btn {
+
+}
+
+.btn_wheel {
+    outline: none;
+    padding: 10px 45px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background-color: #F3BE64;
+
+    cursor: pointer;
+    border: none;
+}
+
+.btn_wheel:hover {
+    background-color: #F9D984;
+}
+
+
+
+    /*------------------------------------------------- FIN CONTAINER GAME -------------------------------------------------*/
+
+
+/*------------------------------------------------- FIN SECTION GAME -------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- SECTION COMMON -------------------------------------------------*/
+
+
+.section {
+    margin: 100px auto;
+
+}
+
+.title_section {
+    font-size: 45px;
+    text-align: center;
+
+    margin-bottom: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*------------------------------------------------- FIN SECTION COMMON -------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------------- OUR PRODUCT -------------------------------------------------*/
+
+    /*------------------------------------------------- CONTAINER WAFFLE -------------------------------------------------*/
+
+.container_waffle, .container_waffle_reverse {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px;
+
+    background-color: antiquewhite;
+
+    margin-bottom: 50px;
+}
+
+.container_waffle__infos_img, .container_waffle__num_box {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container_waffle__infos_img_reverse, .container_waffle__num_box_reverse {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+        /*------------------------------------------------- WAFFLE INFO IMG -------------------------------------------------*/
+.container_waffle__infos_img {
+    justify-content: space-between;
+}
+
+.title_waffle {
+    font-size: 50px;
+    color: #F3BE64;
+}
+
+.citation_waffle {
+    color: #F9D984;
+
+    margin-top: -5px;
+
+}
+
+
+.descr_waffle {
+    width: 75%;
+
+    margin-top: 25px;
+    /* background-color: aquamarine; */
+}
+
+.link_more {
+    text-decoration: none;
+    color: #000000;
+
+    margin-top: 75px;
+
+    transition: 0.4s;
+}
+
+.link_more:hover {
+    color: #C11F86;
+    
+}
+
+.img_waffle {
+    width: 100%;
+    max-width: 500px;
+    /* background-color: red; */
+}
+
+
+
+        /*------------------------------------------------- FIN WAFFLE INFO IMG -------------------------------------------------*/
+
+
+
+        /*------------------------------------------------- WAFFLE INFO IMG -------------------------------------------------*/
+.container_waffle__num_box {
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding-top: 75px;
+
+    color: #F3BE64;
+
+    /* background-color: aqua; */
+}
+
+.waffle_num {
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.img_waffle_box {
+    width: 100%;
+    max-width: 500px;
+}
+        
+        /*------------------------------------------------- WAFFLE INFO IMG -------------------------------------------------*/
+
+
+
+    /*------------------------------------------------- FIN CONTAINER WAFFLE -------------------------------------------------*/
+
+
+
+
+
+
+
+
+    /*------------------------------------------------- WAFFLE INFO IMG REVERSE -------------------------------------------------*/
+.container_waffle__num_box_reverse {
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding-top: 75px;
+
+    color: #F3BE64;
+}
+
+
+.waffle_num_reverse {
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.img_waffle_box_reverse {
+    width: 100%;
+    max-width: 500px;
+}
+
+    /*------------------------------------------------- FIN WAFFLE INFO IMG REVERSE -------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------- FIN OUR PRODUCT -------------------------------------------------*/
+
+
+
+
+
+
+@media screen and (max-width: 1065px) {
+    
+    .container_form {
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 965px) {
+    
+    body {
+        padding: 10px 45px;
+    }
+}
+
+
+
+@media screen and (max-width: 865px) {
+
+    .container_form {
+        width: 100%;
+    }
+
+    .input_box_txt {
+        width: 90%;
+    }
+
+    .container_game {
+        width: 75%;
+    
+        margin-top: 35px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    
+    
+    .container_game_wheel {
+        width: 100%;
+    
+    }
+    
+
+    .btn_wheel {
+        margin-top: 40px;
+    }
+
+
+
+
+
+    .container_waffle {
+        display: flex;
+        justify-content: space-between;
+    
+        flex-direction: column-reverse;
+
+        padding: 20px;
+
+    }
+
+    .container_waffle__infos_img {
+        width: 100%;
+
+        /* background-color: red; */
+    }
+
+    .title_waffle {
+        font-size: 45px;
+        color: #F3BE64;
+    }
+
+    
+    .descr_waffle {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .link_more {
+        margin-top: 55px;
+
+    }
+
+    .img_waffle {
+        margin-top: 15px;
+    }
+
+
+
+    .container_waffle__num_box {
+        width: 100%;
+
+        /* background-color: darkgray; */
+    }
+
+    .container_waffle__num_box {
+        align-items: flex-start;
+        padding-top: 0;
+
+    }
+
+    .waffle_num {
+        font-size: 85px;
+    }
+
+    .img_waffle_box {
+        display: none;
+    }
+
+
+    .container_waffle_reverse {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .container_waffle__infos_img_reverse, .container_waffle__num_box_reverse {
+        width: 100%;
+    }
+
+    .container_waffle__num_box_reverse {
+        padding-top: 0;
+
+    }
+
+    .waffle_num_reverse {
+        font-size: 85px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 565px) {
+    
+    body {
+        padding: 10px 20px;
+    }
+
+
+    
+    .container_network {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0 10px;
+
+    }
+
+    .network_icon {
+        width: 30px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    
+    }
+
+
+
+
+    .container_game {
+        width: 75%;
+    }
+
+
+    .info_game {
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+/* ----------------- ANIM*/
+
+
+.display_none {
+    display: none;
+}
