@@ -11,7 +11,6 @@
 
 
 body {
-    padding: 20px 75px;
     font-family: 'Roboto';
 }
 
@@ -22,10 +21,14 @@ body {
 .header {
     width: 100%;
 
+    padding: 20px 75px;
+
     display: flex;
     justify-content: space-between;
 
-    /* background-color:aquamarine ; */
+    background-color:#ffffff ;
+    -webkit-box-shadow: 0px 9px 22px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 9px 22px 5px rgba(0,0,0,0.1);
 }
 
     /*------------------------------------------------- LOGO -------------------------------------------------*/
@@ -204,7 +207,7 @@ body {
 
 .container_game_wheel {
     width: 60%;
-
+    min-width: 60%;
     /* background-color: red; */
 }
 
@@ -214,7 +217,10 @@ body {
 
 
 .container_game_btn {
+    display: flex;
+    flex-direction: column;
 
+    /* background-color: orange; */
 }
 
 .btn_wheel {
@@ -229,10 +235,22 @@ body {
 
     cursor: pointer;
     border: none;
+
+    align-self: center;
 }
 
 .btn_wheel:hover {
     background-color: #F9D984;
+}
+
+
+.info_game_gain {
+    margin-top: 50px;
+    margin-left: 50px;
+
+    font-size: 20px;
+
+    display: none;
 }
 
 
@@ -257,8 +275,7 @@ body {
 
 
 .section {
-    margin: 100px auto;
-
+    margin: 100px 75px;
 }
 
 .title_section {
@@ -322,7 +339,7 @@ body {
 .citation_waffle {
     color: #F9D984;
 
-    margin-top: -5px;
+    margin-top: 0px;
 
 }
 
@@ -425,6 +442,87 @@ body {
 
 /*------------------------------------------------- FIN OUR PRODUCT -------------------------------------------------*/
 
+.footer {
+    width: 100%;
+
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F3BE64;
+}
+
+.container_all_info_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container_info_footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+
+    margin-bottom: 15px;
+
+    color: #ffffff;
+}
+
+
+.container_data_policy {
+    margin-bottom: 50px; 
+}
+
+.data_policy_link {
+    color: #ffffff;
+}
+.data_policy_link:hover {
+    color: #eeebeb;
+}
+
+
+
+.container_network_footer {
+    align-self: center;
+}
+
+.icon_network_footer {
+    width: 30px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- FOOTER -------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- FIN FOOTER -------------------------------------------------*/
+
 
 
 
@@ -443,9 +541,11 @@ body {
 
 
 @media screen and (max-width: 965px) {
-    
-    body {
-        padding: 10px 45px;
+    .section {
+        margin: 50px 45px;
+    }
+    .header {
+        padding: 15px 45px;
     }
 }
 
@@ -483,6 +583,11 @@ body {
 
     .btn_wheel {
         margin-top: 40px;
+    }
+
+    
+    .info_game_gain {
+        margin-left: 0;
     }
 
 
@@ -578,7 +683,11 @@ body {
 
 @media screen and (max-width: 565px) {
     
-    body {
+    .section {
+        margin: 50px 20px;
+    }
+
+    .header {
         padding: 10px 20px;
     }
 
@@ -625,4 +734,8 @@ body {
 
 .display_none {
     display: none;
+}
+
+.display_unset {
+    display: unset;
 }
